@@ -17,11 +17,19 @@ docker rm CONTAINER-ID
 
 docker exec CONTAINER-ID command 
 
+goal account balance -a "6MUKRF7CMSYXQIYC36EYG6DXO6EKIVMB6WXAGP2VQK5JXGDDKMWQWK3GJM"
+
 example
 docker exec ffcdeb7d6ff5 goal wallet new 
 docker exec ffcdeb7d6ff5 goal account balance -a "UYWLAPZJHKG42J5E4S37PLAMGN5TWY4GNJYQ7TFIEMCM73VT7XEQDO2OM4"
 
+name 'test' wallet
+log timber club soul eyebrow economy mimic cart useless dignity degree electric stable spider gesture deer legend poet tide picture sample shoot else about embody
 
+goal clerk send -a 100000 -f "6MUKRF7CMSYXQIYC36EYG6DXO6EKIVMB6WXAGP2VQK5JXGDDKMWQWK3GJM" -t "4I4HOG76IF6GEUXEX4UG7E6KEWYUOI52Y6J2ZUWMUM4QESNVBFNFGMROF4"
+goal wallet list
+goal wallet list --help
+goal wallet testnet2
 
 commands
 
