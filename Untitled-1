@@ -8,20 +8,23 @@ https://bank.testnet.algorand.network/
 if u wanna setup node in docker
 https://github.com/algorand/sandbox
 
-Open config.nightly and change default network to testnet
+Open config.nightly and change default network to 'testnet'
 
 ./sandbox up
 
 docker stop CONTAINER-ID
 docker rm CONTAINER-ID
 
-docker exec CONTAINER-ID command 
+docker exec <CONTAINER-ID> <command> 
+
+open a shill in the docker conatiner
+docker exec -it <container name> /bin/bash
 
 goal account balance -a "6MUKRF7CMSYXQIYC36EYG6DXO6EKIVMB6WXAGP2VQK5JXGDDKMWQWK3GJM"
 
 example
-docker exec ffcdeb7d6ff5 goal wallet new 
-docker exec ffcdeb7d6ff5 goal account balance -a "UYWLAPZJHKG42J5E4S37PLAMGN5TWY4GNJYQ7TFIEMCM73VT7XEQDO2OM4"
+goal wallet new 
+goal account balance -a "UYWLAPZJHKG42J5E4S37PLAMGN5TWY4GNJYQ7TFIEMCM73VT7XEQDO2OM4"
 
 name 'test' wallet
 log timber club soul eyebrow economy mimic cart useless dignity degree electric stable spider gesture deer legend poet tide picture sample shoot else about embody
