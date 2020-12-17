@@ -17,7 +17,7 @@ docker rm CONTAINER-ID
 
 docker exec <CONTAINER-ID> <command> 
 
-open a shill in the docker conatiner
+open a shell in the docker conatiner
 docker exec -it <container name> /bin/bash
 
 goal account balance -a "6MUKRF7CMSYXQIYC36EYG6DXO6EKIVMB6WXAGP2VQK5JXGDDKMWQWK3GJM"
