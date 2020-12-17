@@ -9,6 +9,7 @@ if u wanna setup node in docker
 https://github.com/algorand/sandbox
 
 Open config.nightly and change default network to 'testnet'
+config.nightly is defualt apparently. Need 'testnet' in network and genesis/testnet/genesis.json
 
 ./sandbox up
 
@@ -19,6 +20,7 @@ docker exec <CONTAINER-ID> <command>
 
 open a shell in the docker conatiner
 docker exec -it <container name> /bin/bash
+exit
 
 goal account balance -a "6MUKRF7CMSYXQIYC36EYG6DXO6EKIVMB6WXAGP2VQK5JXGDDKMWQWK3GJM"
 
