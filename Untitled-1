@@ -1,0 +1,34 @@
+https://github.com/yieldly1/smart-contracts/tree/master/devrel/crowdfunding
+
+if u wanna setup a node raw
+https://developer.algorand.org/docs/run-a-node/setup/install/
+
+https://bank.testnet.algorand.network/
+
+if u wanna setup node in docker
+https://github.com/algorand/sandbox
+
+Open config.nightly and change default network to testnet
+
+./sandbox up
+
+docker stop CONTAINER-ID
+docker rm CONTAINER-ID
+
+docker exec CONTAINER-ID command 
+
+example
+docker exec ffcdeb7d6ff5 goal wallet new 
+docker exec ffcdeb7d6ff5 goal account balance -a "UYWLAPZJHKG42J5E4S37PLAMGN5TWY4GNJYQ7TFIEMCM73VT7XEQDO2OM4"
+
+
+
+commands
+
+Keygen:
+docker exec 87d50224f817 algokey generate
+
+account balance -a <my-address>
+
+Private key mnemonic: clarify please metal endless people lend actor gold planet flight load lava horror rain glove machine spray relief record brush across poet sign able deputy
+Public key: UYWLAPZJHKG42J5E4S37PLAMGN5TWY4GNJYQ7TFIEMCM73VT7XEQDO2OM4
