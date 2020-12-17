@@ -26,6 +26,13 @@ goal account balance -a "6MUKRF7CMSYXQIYC36EYG6DXO6EKIVMB6WXAGP2VQK5JXGDDKMWQWK3
 
 example
 goal wallet new 
+
+   24  goal  account list|awk '{ print $3 }'|head -n 1
+   25  goal  account list
+   26  goal  account creaete
+   27  goal  account create
+   28  goal  account new 
+
 goal account balance -a "UYWLAPZJHKG42J5E4S37PLAMGN5TWY4GNJYQ7TFIEMCM73VT7XEQDO2OM4"
 
 name 'test' wallet
